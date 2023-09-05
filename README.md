@@ -26,7 +26,7 @@ Learning about the Go language, its libraries and frameworks.
 
 ## Libraries
 
-- [fmt, text formatting](src/textFormatting.go)
+- [fmt, strconv, text formatting](src/textFormatting.go)
 - [os, files](src/files.go)
 - [net/http, Web Server](src/webServer.go)
 - [time](src/time.go)
@@ -34,9 +34,11 @@ Learning about the Go language, its libraries and frameworks.
 
 ## Resources
 
-- https://www.tutorialspoint.com/go/
 - https://gobyexample.com/
 - https://go.dev/doc/tutorial/
 - https://go.dev/tour/welcome/1
 - https://www.geeksforgeeks.org/golang/
+- https://www.tutorialspoint.com/go/
+- https://www.w3schools.com/go/
 - https://www.golang-book.com/
+- https://www.bogotobogo.com/GoLang/

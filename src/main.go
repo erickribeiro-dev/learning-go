@@ -1,5 +1,7 @@
 package main
 
 func main() {
-	helloWorld()
+	// helloWorld()
+	// variables()
+	dataTypes()
 }
