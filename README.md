@@ -8,7 +8,8 @@ Learning about the Go language, its libraries and frameworks.
 - [Hello World](src/helloWorld.go) - A minimal Go program
 - [Variables](src/variables.go) - Variables declarations
 - [Data Types](src/dataTypes.go) - Primitive data types
-- [Constants](src/constants.go) - Constants and iota
+- [Constants](src/constants.go) - Constants
+- [iota](src/enumConstants.go) - iota
 - [Arrays](src/arrays.go) - Creating and managing Arrays
 - [Slices](src/slices.go) - Creating and managing Slices
 - [Maps](src/maps.go) - Creating and managing Maps

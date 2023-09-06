@@ -1,0 +1,33 @@
+package main
+
+import (
+	"fmt"
+	// "math"
+)
+
+func constants() {
+	// constants can't have their values changed
+	const maxAllowedConnections = 128
+	fmt.Println(maxAllowedConnections)
+
+	// Will result in error because the result because the value should be determined at compile time
+	// and math.Sin is calculated at run time
+	// const result float64 = math.Sin(1.57)
+
+	// you can do operations with variables and constants
+	const x int = 12
+	var y int = 18
+	fmt.Println(x + y)
+
+	// You can't do operations if you determine different types for the variables,
+	// but you can do so if you don't set the type for the constant
+	// const j int = 8
+	// var k int16 = 12
+	// fmt.Println(j + k) <-- Will result in an error
+	const j = 8
+	var k int16 = 12
+	fmt.Printf("%v of type %T", j+k, j+k) // this works, and the result is of Type int16
+	// the above line is the same as the following line because the compile replaces the variable with the literal value:
+	// fmt.Println(8 + k)
+
+}
