@@ -6,5 +6,6 @@ func main() {
 	// dataTypes()
 	// constants()
 	// enumConstants()
-	arrays()
+	// arrays()
+	slices()
 }

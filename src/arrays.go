@@ -6,8 +6,8 @@ func arrays() {
 	// Arrays have fixed size and, like most other programming languages, start at index 0.
 	brands := [3]string{"BMW", "Mercedes"}
 	fmt.Println(brands[1]) // Mercedes
-	// the len method returns the size of the array
-	fmt.Printf("Array size: %v\n", len(brands))
+	// the len function returns the size of the array
+	fmt.Printf("Array length: %v\n", len(brands))
 
 	// Automatically initialize the array size
 	fib := [...]int{1, 1, 2, 3, 5, 8}
