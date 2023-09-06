@@ -5,5 +5,6 @@ func main() {
 	// variables()
 	// dataTypes()
 	// constants()
-	enumConstants()
+	// enumConstants()
+	arrays()
 }
