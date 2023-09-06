@@ -1,4 +1,4 @@
-// All files of your project should be part of the same package
+// All files on your project should be part of the same package
 package main
 
 // import modules and libraries
