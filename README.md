@@ -15,6 +15,7 @@ Learning about the Go language, its libraries and frameworks.
 - [Maps](src/maps.go) - Creating and managing Maps
 - [Structs](src/structs.go) - Creating and managing Structs
 - [Structs embedding](src/structsEmbedding.go) - Structs embedding
+- [Structs tags](src/structsTags.go) - Structs tags
 - [Operators](src/operators.go) - Arithmetic, Relational, Logical, Bitwise and Assignment operators
 - [Pointers](src/pointers.go) - Reference by pointers
 - [If/Else](src/ifElseDecisionMaking.go) - Decision making with If/Else

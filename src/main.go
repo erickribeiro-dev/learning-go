@@ -10,5 +10,6 @@ func main() {
 	// slices()
 	// maps()
 	// structs()
-	structsEmbedding()
+	// structsEmbedding()
+	structsTags()
 }
