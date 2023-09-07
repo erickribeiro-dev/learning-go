@@ -7,5 +7,8 @@ func main() {
 	// constants()
 	// enumConstants()
 	// arrays()
-	slices()
+	// slices()
+	// maps()
+	// structs()
+	structsEmbedding()
 }
