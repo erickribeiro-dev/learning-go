@@ -15,5 +15,6 @@ func main() {
 	// operators()
 	// pointers()
 	// ifElseDecisionMaking()
-	switchDecisionMaking()
+	// switchDecisionMaking()
+	loops()
 }

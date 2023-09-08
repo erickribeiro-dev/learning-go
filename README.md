@@ -19,7 +19,7 @@ Learning about the Go language, its libraries and frameworks.
 - [Operators](src/operators.go) - Arithmetic, Relational, Logical, Bitwise and Assignment operators
 - [Pointers](src/pointers.go) - Reference by pointers
 - [If/Else](src/ifElseDecisionMaking.go) - Decision making with If/Else
-- [Switch/Case](src/switchDecisionMaking.go) - Decision making with Switch/Case
+- [Switch/Case](src/switchDecisionMaking.go) - Decision making with Switch/Case, break and fallthrough
 - [For loops](src/loops.go) - Loops, break and continue
 - [Defer, Panic and Recover](src/deferPanicRecover.go) - Error handling
 - [Functions](src/functions.go) - Functions, parameters, return, recursion
