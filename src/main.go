@@ -14,5 +14,6 @@ func main() {
 	// structsTags()
 	// operators()
 	// pointers()
-	ifElseDecisionMaking()
+	// ifElseDecisionMaking()
+	switchDecisionMaking()
 }
