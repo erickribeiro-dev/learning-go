@@ -29,5 +29,4 @@ func constants() {
 	fmt.Printf("%v of type %T", j+k, j+k) // this works, and the result is of Type int16
 	// the above line is the same as the following line because the compile replaces the variable with the literal value:
 	// fmt.Println(8 + k)
-
 }

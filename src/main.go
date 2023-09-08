@@ -11,5 +11,8 @@ func main() {
 	// maps()
 	// structs()
 	// structsEmbedding()
-	structsTags()
+	// structsTags()
+	// operators()
+	// pointers()
+	ifElseDecisionMaking()
 }
