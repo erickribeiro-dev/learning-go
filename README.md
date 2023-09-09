@@ -21,7 +21,8 @@ Learning about the Go language, its libraries and frameworks.
 - [If/Else](src/ifElseDecisionMaking.go) - Decision making with If/Else
 - [Switch/Case](src/switchDecisionMaking.go) - Decision making with Switch/Case, break and fallthrough
 - [For loops](src/loops.go) - Loops, break and continue
-- [Defer, Panic and Recover](src/deferPanicRecover.go) - Error handling
+- [Defer](src/deferPanicRecover.go) - Defer
+- [Panic and Recover](src/panicRecover.go) - Error handling
 - [Functions](src/functions.go) - Functions, parameters, return, recursion
 - [Interfaces](src/interfaces.go) - Implementing interfaces for type methods
 - [Goroutines](src/goroutines.go) - Multithreading and Wait Group

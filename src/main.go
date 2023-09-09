@@ -16,5 +16,6 @@ func main() {
 	// pointers()
 	// ifElseDecisionMaking()
 	// switchDecisionMaking()
-	loops()
+	// loops()
+	deferringExecution()
 }
