@@ -18,5 +18,6 @@ func main() {
 	// switchDecisionMaking()
 	// loops()
 	// deferringExecution()
-	panicRecover()
+	// panicRecover()
+	functions()
 }

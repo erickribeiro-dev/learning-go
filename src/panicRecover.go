@@ -6,8 +6,10 @@ import (
 )
 
 func panicRecover() {
-	// Example #1
 	// Panic is similar to exceptions in most other programming languages
+	// Use when the an event can't be recovered
+
+	// Example #1
 	// panic: runtime error: integer divide by zero
 	// a, b := 1, 0
 	// result := a / b
