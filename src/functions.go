@@ -20,6 +20,7 @@ func functions() {
 	fmt.Println(name)
 
 	// Variadic parameters (maximum 1 variadic parameter and must be the last listed in the arguments)
+	// the type of the variadic parameter is a slice
 	sumFunction("The sum is:", 1, 3, 5, 7, 9)
 
 	// Return values
@@ -86,6 +87,7 @@ func sayHelloAndAlterName(name *string) {
 }
 
 // Variadic parameters
+// the type of the variadic parameter is a slice
 func sumFunction(msg string, args ...int) {
 	fmt.Printf("%v %T\n", args, args)
 	result := 0
