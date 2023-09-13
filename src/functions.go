@@ -132,6 +132,7 @@ type Cat struct {
 	age      int
 }
 
+// greeter is a value receiver. Pointer receivers can also be used
 func (greeter Cat) speak() {
 	fmt.Println(greeter.greeting)
 }

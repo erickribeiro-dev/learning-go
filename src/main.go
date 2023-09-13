@@ -19,5 +19,6 @@ func main() {
 	// loops()
 	// deferringExecution()
 	// panicRecover()
-	functions()
+	// functions()
+	interfaces()
 }
