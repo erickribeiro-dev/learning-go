@@ -20,5 +20,6 @@ func main() {
 	// deferringExecution()
 	// panicRecover()
 	// functions()
-	interfaces()
+	// interfaces()
+	goroutines()
 }
