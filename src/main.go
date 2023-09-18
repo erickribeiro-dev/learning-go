@@ -21,5 +21,6 @@ func main() {
 	// panicRecover()
 	// functions()
 	// interfaces()
-	goroutines()
+	// goroutines()
+	channels()
 }

@@ -39,8 +39,9 @@ Learning about the Go language, its libraries and frameworks.
 ## Resources
 
 - https://gobyexample.com/
-- https://go.dev/doc/tutorial/
 - https://go.dev/tour/welcome/1
+- https://go.dev/doc/tutorial/
+- https://go.dev/doc/effective_go
 - https://www.geeksforgeeks.org/golang/
 - https://www.tutorialspoint.com/go/
 - https://www.w3schools.com/go/

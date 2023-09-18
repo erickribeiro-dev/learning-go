@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 	"sync"
 )
 
@@ -10,6 +11,9 @@ var wg = sync.WaitGroup{}
 var counter = 0
 
 func goroutines() {
+	// Optional setting to control the maximum number of CPUs to use
+	// To detect race conditions, you can run the program as: go run -race main.go
+	runtime.GOMAXPROCS(4)
 	// Use the Keyword Go to run the function in a separated, green thread
 	// Notice the race condition - the execution is asynchronous
 	go printTask("First")
