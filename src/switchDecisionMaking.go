@@ -33,7 +33,7 @@ func switchDecisionMaking() {
 
 	// Tagless switches.
 	// Notice that only the first case will execute
-	// When using fallthrough, the next "case" willl run regardless if the test passes or not
+	// When using fallthrough, the next "case" will run regardless if the test passes or not
 	j := 10
 	switch {
 	case j <= 10:
