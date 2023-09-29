@@ -1,6 +1,6 @@
 # learning-go
 
-Learning about the Go language, its libraries and frameworks.
+Learning about the Go programming language, its libraries and frameworks.
 
 ## Learning topics
 
