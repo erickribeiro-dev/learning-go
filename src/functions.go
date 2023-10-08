@@ -4,7 +4,7 @@ import "fmt"
 
 func functions() {
 	// Calling a function with a parameter (argument),
-	// similar to most proframming languages
+	// similar to most programming languages
 	for i := 0; i < 5; i++ {
 		sayMessage("Hello Go!", i)
 	}
