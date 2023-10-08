@@ -26,7 +26,7 @@ func functions() {
 	// Return values
 	fmt.Println(getLength("This is a 36 characters long message"))
 
-	// Returninit a pointer
+	// Returning a pointer
 	fmt.Println(*isEven(88))
 
 	// Named return
