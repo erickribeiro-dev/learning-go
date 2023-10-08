@@ -39,7 +39,6 @@ func slices() {
 	h := make([]string, 4, 100)
 	fmt.Printf("values: %v - length: %v - capacity: %v", h, len(h), cap(h))
 
-	// CONTINUE FROM HERE
 	// Add elements to a slice
 	h = append(h, "River", "Ocean", "Lake")
 	fmt.Println(h)
