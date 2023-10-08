@@ -1,10 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func dataTypes() {
 	// String
 	var a string = "This is a string"
+
+	// Getting the type of the variable
+	fmt.Printf("%T\n", a)
+	fmt.Println(reflect.TypeOf(a))
 
 	// Boolean
 	var b bool = true

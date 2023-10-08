@@ -23,5 +23,6 @@ func main() {
 	// interfaces()
 	// goroutines()
 	// channels()
-	files()
+	// files()
+	images()
 }
