@@ -35,6 +35,7 @@ Learning about the Go programming language, its libraries and frameworks.
 - [net/http, Web Server](src/webServer.go)
 - [time](src/time.go)
 - [compress](src/compress.go)
+- [images](src/images.go)
 
 ## Resources
 
