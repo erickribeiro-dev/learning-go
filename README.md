@@ -8,7 +8,7 @@ Learn about the Go programming language, its libraries and frameworks.
 - [Variables](src/01_variables.go) - Variables declarations
 - [Data Types](src/02_basic_data_types.go) - Primitive data types
 - [Constants](src/03_constants.go) - Constants
-- [Iota](src/04_enumumerated_constants.go) - iota
+- [Iota](src/04_enumerated_constants.go) - iota
 - [Arrays](src/05_arrays.go) - Creating and managing Arrays
 - [Slices](src/06_slices.go) - Creating and managing Slices
 - [Maps](src/07_maps.go) - Creating and managing Maps
