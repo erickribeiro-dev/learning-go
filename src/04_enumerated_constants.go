@@ -5,7 +5,7 @@ import "fmt"
 // iota is an enumerated constant and the initial value is always 0
 const z = iota
 
-// It increments by 1 everytime it's used in the same block of constants declarations
+// It increments by 1 every time it's used in the same block of constants declarations
 const (
 	b = iota
 	c // = iota
@@ -13,7 +13,7 @@ const (
 	e // = iota
 )
 
-// When declaring a new constants block the value of iota resets to 0
+// When declaring a new constants' block the value of iota resets to 0
 const (
 	// It's recommended to skip the first value to avoid confusing errors
 	// such as initializing a specialist_type without a value
