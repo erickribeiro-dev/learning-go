@@ -12,6 +12,6 @@ func web_server() {
 	})
 
 	// Start the server on port 8080
-	// To test, open your browser to http://localhost.com:8080
+	// To test, open your browser to http://localhost:8080 or 127.0.0.1:8080
 	http.ListenAndServe(":8080", nil)
 }
