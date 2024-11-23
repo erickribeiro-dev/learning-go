@@ -6,12 +6,19 @@ import (
 )
 
 func web_server() {
+	// Handler for the root route
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Hello, World!")
-		fmt.Println("Got a new request.")
+		fmt.Fprintln(w, "Hello, User!")
 	})
 
-	// Start the server on port 8080
-	// To test, open your browser to http://localhost:8080 or 127.0.0.1:8080
-	http.ListenAndServe(":8080", nil)
+	// Handler for the /about/ route
+	http.HandleFunc("/about/", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintln(w, "This is the about page!")
+	})
+
+	// Test by visiting http://localhost:8080 or http://localhost:8080/about/
+	fmt.Println("Server running on http://localhost:8080")
+	if err := http.ListenAndServe(":8080", nil); err != nil {
+		fmt.Println("Error starting server:", err)
+	}
 }
