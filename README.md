@@ -46,6 +46,11 @@ Learn about the Go programming language, its libraries and frameworks.
 - [HTTP servers (REST)](src/53_web_server_rest.go) - RESTful API (GET, POST, PUT, DELETE)
 - [HTTP servers (static files)](src/54_web_server_static_files.go) - Serging static files
 
+# TODO
+- Add more advanced topics, such as: Packages, Concurrency, Unit testing, context, reflect, modules/module versioning, Middleware, JWT/OAuth, Database integration and ORM, some frameworks like Gin, and more.
+- Review and update the topics.
+- Post one or two full project using diverse features.
+
 ## Resources
 
 - https://go.dev/tour/welcome/1
