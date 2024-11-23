@@ -40,7 +40,11 @@ Learn about the Go programming language, its libraries and frameworks.
 - [Select/case](src/37_channels_select.go) - Select/case for channels
 - [OS, files](src/40_files.go) - Creating and reading files
 - [Image compression](src/41_image_compression.go) - Compressing PNG and JPG images
-- [Web servers](src/50_web_server.go) - net/http, Web Server, REST API
+- [Web servers](src/50_web_server.go) - Basic net/http HTTP Server
+- [Web servers](src/51_web_server_query.go) - Handling query parameters
+- [Web servers](src/52_web_server_json.go) - Serving JSON files
+- [Web servers](src/53_web_server_rest.go) - RESTful API (GET, POST, PUT, DELETE)
+- [Web servers](src/54_web_server_static_files.go) - Serging static files
 
 ## Resources
 
