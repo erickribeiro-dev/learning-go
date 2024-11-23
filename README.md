@@ -44,7 +44,7 @@ Learn about the Go programming language, its libraries and frameworks.
 - [HTTP servers (Query parameters)](src/51_web_server_query.go) - Handling query parameters
 - [HTTP servers (JSON)](src/52_web_server_json.go) - Serving JSON files
 - [HTTP servers (REST)](src/53_web_server_rest.go) - RESTful API (GET, POST, PUT, DELETE)
-- [HTTP servers (static files)](src/54_web_server_static_files.go) - Serging static files
+- [HTTP servers (static files)](src/54_web_server_static_files.go) - Serving static files
 
 # TODO
 - Add more advanced topics, such as: Packages, Concurrency, Unit testing, context, reflect, modules/module versioning, Middleware, JWT/OAuth, Database integration and ORM, some frameworks like Gin, and more.
